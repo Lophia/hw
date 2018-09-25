@@ -1,0 +1,135 @@
+1.
+
+        Scanner scn = new Scanner(System.in);
+        int c1 = scn.nextInt();
+
+        int f1 = c1*9/5+32;
+
+        System.out.println(f1);
+
+2.
+
+        Scanner scn = new Scanner(System.in);
+        int x = scn.nextInt();
+        int y = scn.nextInt();
+
+        System.out.println(x+y);
+        System.out.println(x-y);
+        System.out.println(x*y);
+
+3.
+
+        Scanner scn = new Scanner(System.in);
+        int p1 = scn.nextInt();
+        int p2 = scn.nextInt();
+        int p3 = scn.nextInt();
+
+        int A1 = p1+p2+p3;
+
+        System.out.println(A1);
+        System.out.println(A1/3);
+
+4.
+
+        Scanner scn = new Scanner(System.in);
+        float cm = scn.nextInt();
+        float kg = scn.nextInt();
+
+        float inch = cm / 2.54f;
+        float lb = kg / 0.454f;
+
+
+        System.out.println(inch);
+        System.out.println(lb);
+
+5.
+
+        Scanner scn = new Scanner(System.in);
+        float a = scn.nextInt();
+        float b = scn.nextInt();
+        float c = scn.nextInt();
+
+        if(a<=b && b<=c)
+        {
+
+            System.out.println("Ture");
+
+        }
+        else
+        {
+
+            System.out.println("False");
+
+        }
+
+6.
+
+        Scanner scn = new Scanner(System.in);
+        int y1 = scn.nextInt();
+        int y2 = scn.nextInt();
+        int y3 = scn.nextInt();
+
+        if(y1<1 || y1>3000)
+        {
+
+            System.out.println("Error");
+
+        }
+
+        if(y2<1 || y2>3000)
+        {
+
+            System.out.println("Error");
+
+        }
+
+        if(y3<1 || y3>3000)
+        {
+
+            System.out.println("Error");
+
+        }
+
+        int a1 = y1%4;
+        int a2 = y2%4;
+        int a3 = y3%4;
+
+
+        if(a1==0)
+        {
+
+            System.out.println("Ture");
+
+        }
+        else
+        {
+
+            System.out.println("False");
+
+        }
+
+        if(a2==0)
+        {
+
+            System.out.println("Ture");
+
+        }
+        else
+        {
+
+            System.out.println("False");
+
+        }
+
+        if(a3==0)
+        {
+
+            System.out.println("Ture");
+
+        }
+        else
+        {
+
+            System.out.println("False");
+
+        }
